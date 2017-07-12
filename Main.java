@@ -9,6 +9,6 @@ public class Main {
         // start threads of reading and writing
         reading.start();
         writing.start();
-
+///
     }
 }
