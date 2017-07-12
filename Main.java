@@ -6,9 +6,8 @@ public class Main {
         Action action = new Action("c://Табель//1.txt", "c://Табель//2.txt", 3);
         Reading reading = new Reading(action);
         Writing writing = new Writing(action);
-        // start threads of reading and writing
         reading.start();
         writing.start();
-///
+
     }
 }
